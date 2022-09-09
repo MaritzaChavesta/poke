@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- CSS only -->
+   
+
+</head>
+<body class="principal">
+
+    <div class="poke"><h2>Pokédex</h2></div>
+    <div class="poke__texto">
+        <h3>Nombre o número</h3>
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+        <h5>¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo, debilidad, habilidad y demás datos!</h5>
+    </div>
+   
+    <div poke__card class="poke__card">
+        
+        <div class="poke__card__container">
+            <div poke__card__name__container class="poke__card__container__name">
+                <img poke__card__name__container__img class="poke__card__container__name__img" src="./public/img/1.png"/>
+            </div>
+            <div poke__card__name class="poke__card__container__nomb">Pokedex</div>
+            
+            <div poke__card__id></div>
+            <div poke__card__types class="poke__card__container__types"></div>
+         <div poke__card__stats class="poke__card__container__stats"></div> 
+        </div>
+        
+    </div>
+
+    <script src="./js/pokedex.js"></script>
+   
+</body>
+</html>

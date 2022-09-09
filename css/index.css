@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f2f3f3;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.principal {
+  background-image: url(../public/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1800px;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.poke {
+  background-color: white;
+  font-size: 22px; }
+  .poke h2 {
+    font-family: OpenSans;
+    font-weight: 200;
+    color: gray;
+    padding: 2rem 1rem; }
+  .poke__texto {
+    background-color: #656464;
+    padding: 2rem 1rem; }
+    .poke__texto h3 {
+      font-family: OpenSans;
+      font-weight: 400;
+      color: white;
+      font-size: 24px;
+      letter-spacing: 0.5rem 0rem;
+      padding: 0.5rem 0rem; }
+    .poke__texto input {
+      min-width: 350px;
+      height: 48px;
+      border: 2px solid #706f6f;
+      border-radius: 10px; }
+    .poke__texto h5 {
+      font-family: OpenSans;
+      font-weight: 200;
+      color: white;
+      padding: 1rem 0rem;
+      max-width: 350px;
+      font-size: 14px;
+      letter-spacing: 0.5rem 0rem; }
+  .poke__card {
+    background-color: white;
+    padding: 4rem 0rem;
+    text-align: center; }
+    .poke__card__container {
+      position: relative;
+      height: fit-content;
+      border: 1px solid #706f6f;
+      max-width: 400px;
+      margin: 0 auto;
+      border-radius: 10px;
+      padding: 2rem; }
+      .poke__card__container ::before {
+        /*    content: '';
+            background: radial-gradient(black 33%, transparent 33%);
+            background-size: 3px 3px;
+            border-radius: 4px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 15px;
+            top: 15px; 
+            z-index: -1; */ }
+      .poke__card__container__name__img {
+        width: 40%;
+        height: auto;
+        border-radius: 10px; }
+      .poke__card__container__types {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        padding: 5px;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 700;
+        border: 1px dashed #6f6e6e;
+        border-radius: 4px;
+        margin: 1rem 0rem; }
+      .poke__card__container__stats div {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        padding: 5px;
+        font-size: 16px;
+        text-transform: capitalize; }
+      .poke__card__container__nomb {
+        font-size: 24px;
+        padding: 1rem 0rem;
+        text-transform: capitalize; }

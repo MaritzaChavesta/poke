@@ -1,0 +1,114 @@
+
+.poke{
+
+    background-color: white;
+    font-size: 22px;
+   
+    h2{
+        font-family: Open+Sans;
+        font-weight: 200;
+        color: gray;
+        padding: 2rem 1rem;
+    }
+    &__texto{
+        background-color:rgb(101, 100, 100);
+        padding: 2rem 1rem;
+        h3{
+            font-family: Open+Sans;
+            font-weight: 400;
+            color: white;
+            font-size: 24px;
+            letter-spacing: 0.5rem 0rem; 
+            padding: 0.5rem 0rem;
+        }
+        input{
+            min-width: 350px;
+            height: 48px;
+            border: 2px solid #706f6f;
+            border-radius: 10px;
+        }
+        h5{
+            font-family: Open+Sans;
+            font-weight: 200;
+            color: white;
+            padding: 1rem 0rem ;
+            max-width: 350px;
+            font-size: 14px;
+            letter-spacing: 0.5rem 0rem; 
+        }
+    }
+    &__card{
+        background-color: white;
+        padding: 4rem 0rem;
+        text-align: center;
+       
+     &__container{
+        position: relative;
+        height: fit-content;
+        border: 1px solid #706f6f;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 2rem ;
+        ::before{
+          /*    content: '';
+            background: radial-gradient(black 33%, transparent 33%);
+            background-size: 3px 3px;
+            border-radius: 4px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 15px;
+            top: 15px; 
+            z-index: -1; */
+            
+        }
+        
+           
+            &__name {
+                
+                &__img{
+                  
+                    width: 40%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+            }
+
+            &__types{
+                
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+                padding: 5px;
+                font-size: 18px;
+                text-transform:capitalize;
+                font-weight: 700;
+
+                border: 1px dashed rgb(111, 110, 110);
+                border-radius: 4px;
+                margin: 1rem 0rem;
+            }
+            &__stats div{
+        
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+                padding: 5px;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+
+            &__nomb{
+                font-size: 24px;
+                padding: 1rem 0rem;
+                text-transform: capitalize;
+            }
+           
+        }
+        
+      
+     
+    }
+}
+
